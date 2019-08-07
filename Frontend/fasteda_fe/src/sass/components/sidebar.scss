@@ -1,0 +1,43 @@
+#sidebar {
+    padding: 1rem;
+    min-width: 12rem;
+    max-width: 12rem;
+    background-color: #101F2B;
+    color: #FCE06E;
+    position: fixed;
+    height: 100vh;
+    z-index: 999;
+    &.active {
+        margin-left: -250px;
+    }
+}
+
+.sidebar {
+    &-account {
+        position: absolute;
+        bottom: 5%;
+    }
+    &-account-name {
+        border: 1px solid;
+        padding: .5rem 1rem;
+    }
+    &-list-pages {
+        margin-top: 4rem;
+        list-style-type: none;
+        padding: 0
+    }
+}
+
+.nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    &:hover {
+        color: grey;
+    }
+    &.active {
+        border-bottom: #FCE06E;
+        color: lightgray;
+    }
+}

@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+  postgres:
+    image: 'postgres:9.5'
+    volumes:
+      - '/Users/miguelmarques/Library/Application Support/Postgres/var-11'
+    ports:
+      - '5433:5433'
+  website:
+    build: .
+    command: >
+      gunicorn -b 0.0.0.0:8000
+        --access-logfile -
+        --reload
+        "fasteda.app:create_app()"
+    environment:
+      PYTHONUNBUFFERED: 'true'
+    volumes:
+      - '.:/fasteda'
+    ports:
+      - '8000:8000'

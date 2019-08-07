@@ -1,0 +1,16 @@
+.section {
+    &-preview {
+        padding: 1rem;
+    }
+    &-next {
+        height: 2.5rem;
+    }
+}
+
+.content-title {
+    height: 6rem;
+    background-color: lightgray;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid grey;
+}

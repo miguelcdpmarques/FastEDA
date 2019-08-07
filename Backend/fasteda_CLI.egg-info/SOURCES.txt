@@ -1,0 +1,10 @@
+setup.py
+cli/__init__.py
+cli/cli.py
+cli/commands/cmd_db.py
+fasteda_CLI.egg-info/PKG-INFO
+fasteda_CLI.egg-info/SOURCES.txt
+fasteda_CLI.egg-info/dependency_links.txt
+fasteda_CLI.egg-info/entry_points.txt
+fasteda_CLI.egg-info/requires.txt
+fasteda_CLI.egg-info/top_level.txt
