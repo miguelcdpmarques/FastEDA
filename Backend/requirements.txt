@@ -8,7 +8,7 @@ pycrypto==2.6.1
 Cython==0.29.13
 pyOpenSSL==19.0.0
 Sybase==0.35
-aiohttp==3.5.4
+aiohttp==3.7.4
 anyjson==0.3.3
 Babel==2.7.0
 brotli==1.0.7
