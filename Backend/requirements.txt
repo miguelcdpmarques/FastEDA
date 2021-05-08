@@ -20,7 +20,7 @@ dataclasses==0.6
 python_dateutil==2.8.0
 python-dotenv==0.10.3
 ecdsa==0.13.2
-eventlet==0.25.0
+eventlet==0.31.0
 furl==2.0.0
 gevent==1.4.0
 protobuf==3.9.1
